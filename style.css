@@ -49,3 +49,43 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+@media (max-width: 400px) {
+  #middle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60vh;
+  }
+  #nav {
+    height: 20%;
+    display: flex;
+    width: 100%;
+  }
+  
+  #articles {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+  }
+
+  #ads {
+    height: 40%;
+    width: 100vw;
+  }
+  #footer {
+    height: 20vh;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 801px) {
+  #ads {
+    background-color: purple;
+  }
+
+}
